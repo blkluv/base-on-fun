@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Base on Fun - Ultimate Meme Token Platform on Base Network",
+  title: "BASEMEME. - Ultimate Meme Token Platform on Base Network",
   description:
     "The most fun and secure way to launch meme tokens on the Base network. Automatic liquidity, creator royalties, and anti-rug protection built in.",
     generator: 'v0.dev'
