@@ -36,29 +36,25 @@ export default function Footer() {
 
           <div className="flex justify-center gap-5 mb-6">
             <Link
-              href="#"
+              href="https://x.com/luvnft"
               className="flex items-center gap-2 px-4 py-2 rounded-xl text-primary hover:bg-blue-50 transition-colors"
             >
               <Twitter className="h-5 w-5" />
               Twitter
             </Link>
             <Link
-              href="#"
+              href="https://t.me/luvnftv"
               className="flex items-center gap-2 px-4 py-2 rounded-xl text-primary hover:bg-blue-50 transition-colors"
             >
               <MessageCircle className="h-5 w-5" />
               Telegram
             </Link>
             <Link
-              href="#"
+              href="https://t.com/luvnft"
               className="flex items-center gap-2 px-4 py-2 rounded-xl text-primary hover:bg-blue-50 transition-colors"
             >
-              <Github className="h-5 w-5" />
-              GitHub
-            </Link>
-          </div>
 
-          <p className="text-gray-400 text-sm">&copy; {new Date().getFullYear()} Base on Fun. All rights reserved.</p>
+          <p className="text-gray-400 text-sm">&copy; {new Date().getFullYear()} BaseMeme. All rights reserved.</p>
         </div>
       </div>
     </footer>
