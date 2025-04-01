@@ -27,7 +27,7 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-2">
             <div className="text-3xl">💎</div>
             <span className="text-2xl font-extrabold bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent">
-              Base on Fun
+              BASEMEME.
             </span>
           </Link>
 
