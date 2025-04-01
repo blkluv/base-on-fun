@@ -1,5 +1,5 @@
-import Link from "next/link"
-import { Twitter, MessageCircle, Github } from "lucide-react"
+import Link from "next/link";
+import { Twitter, MessageCircle, Github } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -14,22 +14,40 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-wrap justify-center gap-6 mb-6">
-            <Link href="#trending" className="text-gray-600 hover:text-primary transition-colors">
+            <Link
+              href="#trending"
+              className="text-gray-600 hover:text-primary transition-colors"
+            >
               Trending
             </Link>
-            <Link href="#launch" className="text-gray-600 hover:text-primary transition-colors">
+            <Link
+              href="#launch"
+              className="text-gray-600 hover:text-primary transition-colors"
+            >
               Launch
             </Link>
-            <Link href="#features" className="text-gray-600 hover:text-primary transition-colors">
+            <Link
+              href="#features"
+              className="text-gray-600 hover:text-primary transition-colors"
+            >
               Features
             </Link>
-            <Link href="#faq" className="text-gray-600 hover:text-primary transition-colors">
+            <Link
+              href="#faq"
+              className="text-gray-600 hover:text-primary transition-colors"
+            >
               FAQ
             </Link>
-            <Link href="#" className="text-gray-600 hover:text-primary transition-colors">
+            <Link
+              href="#"
+              className="text-gray-600 hover:text-primary transition-colors"
+            >
               Terms of Service
             </Link>
-            <Link href="#" className="text-gray-600 hover:text-primary transition-colors">
+            <Link
+              href="#"
+              className="text-gray-600 hover:text-primary transition-colors"
+            >
               Privacy Policy
             </Link>
           </div>
@@ -53,11 +71,16 @@ export default function Footer() {
               href="https://t.com/luvnft"
               className="flex items-center gap-2 px-4 py-2 rounded-xl text-primary hover:bg-blue-50 transition-colors"
             >
+              <Github className="h-5 w-5" />
+              Github
+            </Link>
+          </div>
 
-          <p className="text-gray-400 text-sm">&copy; {new Date().getFullYear()} BASEMEME. All rights reserved.</p>
+          <p className="text-gray-400 text-sm">
+            &copy; {new Date().getFullYear()} BASEMEME. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
-  )
+  );
 }
-
