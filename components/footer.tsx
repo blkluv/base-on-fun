@@ -54,7 +54,7 @@ export default function Footer() {
               className="flex items-center gap-2 px-4 py-2 rounded-xl text-primary hover:bg-blue-50 transition-colors"
             >
 
-          <p className="text-gray-400 text-sm">&copy; {new Date().getFullYear()} BaseMeme. All rights reserved.</p>
+          <p className="text-gray-400 text-sm">&copy; {new Date().getFullYear()} BASEMEME. All rights reserved.</p>
         </div>
       </div>
     </footer>
